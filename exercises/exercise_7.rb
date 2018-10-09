@@ -10,3 +10,9 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+bur = Store.new
+bur.name= "Bbyy" 
+
+bur.save
+## D, [2018-10-09T20:53:06.602388 #27564] DEBUG -- :    (0.2ms)  BEGIN
+## D, [2018-10-09T20:53:06.611796 #27564] DEBUG -- :    (0.3ms)  ROLLBACK
